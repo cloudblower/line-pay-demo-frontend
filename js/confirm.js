@@ -16,7 +16,7 @@ window.onload = function () {
     };
     let request = new XMLHttpRequest();
     // 決済確定API
-    request.open('POST', 'https://xxxxxxxxxx.execute-api.ap-northeast-1.amazonaws.com/dev/confirm/', true);
+    request.open('POST', 'https://localhost/dev/confirm/', true);
     request.responseType = 'json';
     request.onload = function () {
         data = this.response;

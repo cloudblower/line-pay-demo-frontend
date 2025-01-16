@@ -5,7 +5,7 @@ window.onload = function () {
             "userId": "demouserid1234567890",
         };
 
-        request.open('POST', 'https://xxxxxxxxxx.execute-api.ap-northeast-1.amazonaws.com/dev/reserve/', true);
+        request.open('POST', 'http://localhost/dev/reserve/', true);
         request.responseType = 'json';
         request.onload = function () {
             let data = this.response;
